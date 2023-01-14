@@ -51,8 +51,8 @@
 // weight = Number(weight.replace(',', '.'));
 // height = Number(height.replace(',', '.'));
 
-// const bmi = weight / height ** 2;
-// const roundedBmi = Math.round(bmi * 10) / 10;
+// const bmi = weight / height ** 2; // Math.pow(height, 2)
+// const roundedBmi = Math.round(bmi * 10) / 10; // also could be rounded using bmi.toFixed(1)
 // console.log(roundedBmi); // 28.8
 
 // Example 7 - Comparison operators and type casting
