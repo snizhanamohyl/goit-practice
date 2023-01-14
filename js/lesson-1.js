@@ -1,5 +1,4 @@
 // Example 1 - Mathematical operators
-// Display the total number of apples and grapes on the screen. The difference between apples and grapes.
 
 // const apples = 47;
 // const grapes = 135;
@@ -11,20 +10,17 @@
 // console.log(diff);
 
 // Example 2 - Combined operators
-// Replace the override expression with the combined operator +=.
 
 // let students = 100;
 // students += 50;
 // console.log(students);
 
 // Example 3 - Operators Priority
-// Disassemble operators priority in the variable value assignment instruction result.
 
 // const result = 108 + 223 - 2 * 5;
 // console.log(result);
 
 // Example 4 - Math class
-// Write a script that prints to the console rounded up/down, etc. values of variable value. Use the methods Math.floor(), Math.ceil() and Math.round(). Check what happens in the console for the values "27.3" and "27.9".
 
 // const value = 27.9;
 
@@ -33,7 +29,6 @@
 // console.log(Math.round(value));
 
 // Example 5 - Template lines
-// Compose a phrase using the template strings A has B bots in stock, where A, B - variables inserted into a line.
 
 // const companyName = 'Cyberdyne Systems';
 // const repairBots = 150;
@@ -42,8 +37,6 @@
 // console.log(message); // "Cyberdyne Systems has 200 bots in stock"
 
 // Example 6 - String methods and chaining
-// Write a script that calculates a person's body mass index. For this you need to divide the weight in kilograms by the square of the person's height in meters.
-// The body mass index should be rounded to one decimal place;
 
 // let weight = '88,3';
 // let height = '1.75';
@@ -56,7 +49,6 @@
 // console.log(roundedBmi); // 28.8
 
 // Example 7 - Comparison operators and type casting
-// What will be the result of the expressions?
 
 // console.log(5 > 4); //true
 
@@ -93,7 +85,6 @@
 // console.log(undefined === null); //false
 
 // Example 8 - Logical operators
-// What will be the result of the expressions?
 
 // console.log(true && 3); //3
 
@@ -116,7 +107,6 @@
 // console.log(null || (2 && 3) || 4); //3     (2 && 3) -> 3
 
 // Example 9 - Default value and null merge operator
-// Refactor the code so that the value is assigned to the value variable variable incomingValue if it is not equal to undefined or null. Otherwise, defaultValue must be assigned. Check work script for the following values of the incomingValue variable: null, undefined, 0, false. Use operator ?? (nullish coalescing operator).
 
 // const incomingValue = null;
 // const defaultValue = 10;
@@ -124,7 +114,6 @@
 // console.log(value);
 
 // Example 10 - Оператор % та методи рядків
-// Напиши скрипт, який переведе значення totalMinutes (кількість хвилин) в рядок у форматі годин та хвилин HH:MM.
 
 // 70 покаже 01:10
 // 450 покаже 07:30
