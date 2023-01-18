@@ -2,11 +2,28 @@
 // const bmi = calcBMI("88,3", "1.75");
 // console.log(bmi); // 28.8
 
+//1 way
 // function calcBMI(weight, height) {
 //   weight = Number(weight.replace(",", "."));
 //   height = Number(height.replace(",", "."));
 
 //   return Math.round((weight / height ** 2) * 10) / 10;
+// }
+
+//2 way
+// function replaceCommaToDot(string) {
+//   return (string = string.replace(",", "."));
+// }
+
+// function getRoundedNumber(number, decimals) {
+//   return number.toFixed(decimals);
+// }
+
+// function calcBMI(weight, height) {
+//   weight = replaceCommaToDot(weight);
+//   height = replaceCommaToDot(height);
+
+//   return getRoundedNumber(weight / height ** 2, 1);
 // }
 
 // Example 2 - Smaller of numbers
