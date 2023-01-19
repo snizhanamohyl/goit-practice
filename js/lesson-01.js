@@ -106,7 +106,7 @@
 //    */
 //   deposit(amount) {
 //     this.balance += amount;
-//     this.createTransaction(amount, "deposit");
+//     this.createTransaction(amount, Transaction.DEPOSIT);
 //   },
 
 //   /*
@@ -128,7 +128,7 @@
 //     }
 
 //     this.balance -= amount;
-//     this.createTransaction(amount, "withdraw");
+//     this.createTransaction(amount, Transaction.WITHDRAW);
 //   },
 
 //   /*
